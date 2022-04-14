@@ -1,3 +1,8 @@
+// Import Assets
+import uniswap from '../assets/uniswap.png';
+import compound from '../assets/compound.png';
+import aave from '../assets/aave.png';
+
 const Projects = () => {
     return (
         <section className="projects">
@@ -7,6 +12,7 @@ const Projects = () => {
 
                 <div className="projects__card">
                     <h3>Uniswap</h3>
+                    <img src={uniswap} alt="Uniswap Swap Page" />
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                         Facilis consectetur facere neque assumenda quasi aliquid,
                         perferendis ratione rerum dolorem.
@@ -18,6 +24,7 @@ const Projects = () => {
 
                 <div className="projects__card">
                     <h3>Compound</h3>
+                    <img src={compound} alt="Compound Landing Page" />
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                         Facilis consectetur facere neque assumenda quasi aliquid,
                         perferendis ratione rerum dolorem.
@@ -29,6 +36,7 @@ const Projects = () => {
 
                 <div className="projects__card">
                     <h3>Aave</h3>
+                    <img src={aave} alt="Aave Landing Page" />
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                         Facilis consectetur facere neque assumenda quasi aliquid,
                         perferendis ratione rerum dolorem.

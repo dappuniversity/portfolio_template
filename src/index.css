@@ -138,6 +138,14 @@ code {
   margin: 20px 0;
 }
 
+.projects__card img {
+  width: 100%;
+  height: auto;
+  margin: 20px 0 10px;
+
+  border-radius: 8px;
+}
+
 .projects__card .button {
   margin: 10px 5px 0;
 }
