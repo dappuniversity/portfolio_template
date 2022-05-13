@@ -88,6 +88,49 @@ code {
 }
 
 /* ------------------------------------------------------ */
+/* -- Contact -- */
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+
+}
+
+.contact-form input, textarea, .form-button{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  margin: 0 auto 15px;
+  border: 1px solid #0088BB;
+  border-radius: 8px;
+}
+
+.form-button {
+
+  background: #12BDF3;
+
+  padding: 15px 50px;
+
+  border: none;
+  border-radius: 8px;
+
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+
+  cursor: pointer;
+
+  transition: all 250ms ease;
+}
+
+.form-button:hover {
+  background: #0088BB;
+  color: #FFFFFF;
+}
+
+/* ------------------------------------------------------ */
 /* -- About -- */
 
 .about h2 {
