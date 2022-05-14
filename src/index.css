@@ -145,6 +145,10 @@ code {
   margin-bottom: 10px;
 }
 
+.about a {
+  text-decoration: none;
+}
+
 /* ------------------------------------------------------ */
 /* -- Projects -- */
 
