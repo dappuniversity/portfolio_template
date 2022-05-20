@@ -251,8 +251,15 @@ code {
   margin: 25px auto;
 }
 
-.social .button {
-  margin: 0 15px;
+.social-links {
+  display: flex;
+  justify-content: start;
+}
+
+.social-links a {
+  text-decoration: none;
+  font-size: 60px;
+  margin-right: 50px;
 }
 
 /* ------------------------------------------------------ */
