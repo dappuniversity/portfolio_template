@@ -107,21 +107,16 @@ code {
 }
 
 .form-button {
-
   background: #12BDF3;
-
   padding: 15px 50px;
-
+  margin-bottom: 30px;
   border: none;
   border-radius: 8px;
-
   font-family: "Work Sans";
   font-size: 16px;
   font-weight: 700;
   text-decoration: none;
-
   cursor: pointer;
-
   transition: all 250ms ease;
 }
 
@@ -147,6 +142,33 @@ code {
 
 .about a {
   text-decoration: none;
+}
+
+/* ------------------------------------------------------ */
+/* -- Languages/Skills -- */
+
+.languages h2 {
+  font-size: 42px;
+  margin: 25px auto;
+}
+
+.languages p {
+  font-size: 18px;
+  line-height: 130%;
+  max-width: 75ch;
+  margin-bottom: 10px;
+}
+
+.language-list {
+  margin-top: 55px;
+  list-style-type: none;
+  font-size: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.language-list li {
+  display: inline-block;
 }
 
 /* ------------------------------------------------------ */

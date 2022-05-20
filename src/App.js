@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import Social from './components/Social';
 import Footer from './components/Footer';
 import { Routes, Route } from 'react-router-dom';
+import Languages from './components/Languages';
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 				<Route path='/contact' element={<Contact />} />
 			</Routes>
 			<About />
+			<Languages />
 			<Projects />
 			<Experience />
 			<Social />

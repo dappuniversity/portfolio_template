@@ -12,6 +12,7 @@ const Contact = () => {
                 <input type="hidden" name="_subject" value="New enquiry from portfolio site" />
                 <textarea name="message" rows="5" placeholder="How can I help you?"></textarea>
                 <button className='form-button' type="submit">Send</button>
+                <p>Please feel free to connect with me on <a href='https://www.linkedin.com/in/damon-pickett/' target='_blank' rel='noreferrer'>Linkedin</a></p>
             </form>
         </div>
     );
