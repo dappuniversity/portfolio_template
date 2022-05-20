@@ -162,13 +162,16 @@ code {
 .language-list {
   margin-top: 55px;
   list-style-type: none;
-  font-size: 100px;
+  font-size: 75px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .language-list li {
   display: inline-block;
+  margin-right: 35px;
 }
 
 /* ------------------------------------------------------ */
