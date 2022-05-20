@@ -5,23 +5,24 @@ const Experience = () => {
 
             <ul>
                 <li>
-                    <i>Clayton State University</i>, 2014-2018
+                    <i>General Assembly</i> - <strong>Software Engineering Fellow</strong>, 2021
                     <ul>
-                        <li>Graduated with 3.00 GPA</li>
+                        <li>3 month software engineering immsersive</li>
+                        <li>Studied front-end and backend development</li>
+                        <li>Studied data structures</li>
+                        <li>Learned to work within a team to complete projects</li>
+                        <li>Learned to think algorithmically to solve problems</li>
                     </ul>
                 </li>
                 <li>
-                    <i>TechFlow</i> - <strong>Blockchain Developer Intern</strong>, 2018-2019
+                    <i>Tilray</i> - <strong>Quality Assurance Lead</strong>, 2018-2021
                     <ul>
-                        <li>Studied DApp development</li>
-                        <li>Assisted Research &amp; Development on Web3 Products</li>
-                    </ul>
-                </li>
-                <li>
-                    <i>SpiderChain</i> - <strong>Blockchain Developer</strong>, 2019-2022
-                    <ul>
-                        <li>Contributed to smart contract development on client's platform</li>
-                        <li>Peer reviewed &amp; Audited Solidity code</li>
+                        <li>Monitored call quality within the Patient Services Department</li>
+                        <li>Provided coaching and constructive criticism</li>
+                        <li>Resolved patient escalations</li>
+                        <li>Completed monthly documentation audits</li>
+                        <li>Created data visualizations for department's quality of work</li>
+                        <li>Wrote email sequence for on-boarding patients</li>
                     </ul>
                 </li>
             </ul>
