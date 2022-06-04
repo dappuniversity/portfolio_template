@@ -1,6 +1,7 @@
 
 
 const Contact = () => {
+
     return (
         <div className="contact-form">
             <form action="https://formsubmit.co/damon.pickett@gmail.com" method="POST">

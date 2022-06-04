@@ -88,7 +88,40 @@ code {
 }
 
 /* ------------------------------------------------------ */
-/* -- Contact -- */
+/* -- Modal -- */
+
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  width: 500px;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.modal-header, .modal-footer {
+  padding: 10px;
+  text-align: center;
+}
+
+.modal-title {
+  margin: 0;
+}
+
+.modal-body {
+  padding: 10px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
 
 .contact-form {
   display: flex;
@@ -164,7 +197,7 @@ code {
   list-style-type: none;
   font-size: 75px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -172,6 +205,7 @@ code {
 .language-list li {
   display: inline-block;
   margin-right: 35px;
+  text-align: center;
 }
 
 /* ------------------------------------------------------ */

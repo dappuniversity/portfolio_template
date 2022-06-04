@@ -25,6 +25,15 @@ const Experience = () => {
                         <li>Wrote email sequence for on-boarding patients</li>
                     </ul>
                 </li>
+                <li>
+                    <i>Meridian Valet</i> - <strong>Valet Attendant</strong>, 2013-2016
+                    <ul>
+                        <li>Provided valet service at various hotels in Vancouver, BC</li>
+                        <li>Ensured the responsible transportation of vehicles</li>
+                        <li>Ensured security and organization of parking sites</li>
+                        <li>Provided professional and friendly service to guests</li>
+                    </ul>
+                </li>
             </ul>
         </div>
     );

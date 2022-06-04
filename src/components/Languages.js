@@ -1,7 +1,7 @@
 const Languages = () => {
     return (
       <section className="about">
-        <h2>Languages/Skills</h2>
+        <h2>Languages</h2>
   
         <ul className="language-list">
             <li>

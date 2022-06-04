@@ -1,7 +1,7 @@
 // Import Assets
-import uniswap from '../assets/uniswap.png';
-import compound from '../assets/compound.png';
-import aave from '../assets/aave.png';
+import crypto from '../assets/crypto-voting.png'
+import hlp from '../assets/hlp.png';
+import blb from '../assets/booklistbuilder.png';
 
 const Projects = () => {
     return (
@@ -11,8 +11,8 @@ const Projects = () => {
             <div className="projects__cards">
 
                 <div className="projects__card">
-                    <h3>Uniswap</h3>
-                    <img src={uniswap} alt="Uniswap Swap Page" />
+                    <h3>Crypto Voting Dapp</h3>
+                    <img src={crypto} alt="Uniswap Swap Page" />
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                         Facilis consectetur facere neque assumenda quasi aliquid,
                         perferendis ratione rerum dolorem.
@@ -23,8 +23,8 @@ const Projects = () => {
                 </div>
 
                 <div className="projects__card">
-                    <h3>Compound</h3>
-                    <img src={compound} alt="Compound Landing Page" />
+                    <h3>HLP Blog</h3>
+                    <img src={hlp} alt="Compound Landing Page" />
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                         Facilis consectetur facere neque assumenda quasi aliquid,
                         perferendis ratione rerum dolorem.
@@ -35,8 +35,8 @@ const Projects = () => {
                 </div>
 
                 <div className="projects__card">
-                    <h3>Aave</h3>
-                    <img src={aave} alt="Aave Landing Page" />
+                    <h3>BookListBuilder</h3>
+                    <img src={blb} alt="Aave Landing Page" />
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                         Facilis consectetur facere neque assumenda quasi aliquid,
                         perferendis ratione rerum dolorem.
