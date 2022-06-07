@@ -130,6 +130,10 @@ code {
 
 }
 
+.contact-form p {
+  text-align: center;
+}
+
 .contact-form input, textarea, .form-button{
   display: flex;
   justify-content: center;
@@ -367,7 +371,7 @@ code {
   }
 
   .modal-content {
-    width: 400px;
+    width: 300px;
   }
   
 }
