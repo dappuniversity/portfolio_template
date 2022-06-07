@@ -388,6 +388,11 @@ code {
     margin: 0;
   }
 
+  .projects__cards {
+    display: flex;
+    justify-content: center;
+  }
+
   .card-title h3 {
     font-size: 1.9em;
   }
