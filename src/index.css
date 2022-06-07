@@ -405,5 +405,13 @@ code {
     height: 50px;
     text-align: center;
   }
+
+  .experience ul {
+    margin: 0 auto;
+  }
+
+  .inner-list li{
+    margin-left: 15px;
+  }
   
 }

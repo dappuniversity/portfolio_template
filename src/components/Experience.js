@@ -6,7 +6,7 @@ const Experience = () => {
             <ul>
                 <li>
                     <i>Sovereign Prime</i> - <strong>Intern</strong>, 2022
-                    <ul>
+                    <ul className="inner-list">
                         <li>Worked within a team to begin building a web3 messenger app</li>
                         <li>Participated in meetings to understand design, and flesh out team organization</li>
                         <li>Gained experience in collaboration in Git version control</li>
@@ -14,7 +14,7 @@ const Experience = () => {
                 </li>
                 <li>
                     <i>General Assembly</i> - <strong>Software Engineering Fellow</strong>, 2021
-                    <ul>
+                    <ul className="inner-list">
                         <li>3 month software engineering immsersive</li>
                         <li>Studied front-end and backend development</li>
                         <li>Studied data structures</li>
@@ -24,7 +24,7 @@ const Experience = () => {
                 </li>
                 <li>
                     <i>Tilray</i> - <strong>Quality Assurance Lead</strong>, 2018-2021
-                    <ul>
+                    <ul className="inner-list">
                         <li>Monitored call quality within the Patient Services Department</li>
                         <li>Provided coaching and constructive criticism</li>
                         <li>Resolved patient escalations</li>
@@ -35,7 +35,7 @@ const Experience = () => {
                 </li>
                 <li>
                     <i>Meridian Valet</i> - <strong>Valet Attendant</strong>, 2013-2016
-                    <ul>
+                    <ul className="inner-list">
                         <li>Provided valet service at various hotels in Vancouver, BC</li>
                         <li>Ensured the responsible transportation of vehicles</li>
                         <li>Ensured security and organization of parking sites</li>
