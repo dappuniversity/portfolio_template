@@ -5,6 +5,14 @@ const Experience = () => {
 
             <ul>
                 <li>
+                    <i>Sovereign Prime</i> - <strong>Intern</strong>, 2022
+                    <ul>
+                        <li>Worked within a team to begin building a web3 messenger app</li>
+                        <li>Participated in meetings to understand design, and flesh out team organization</li>
+                        <li>Gained experience in collaboration in Git version control</li>
+                    </ul>
+                </li>
+                <li>
                     <i>General Assembly</i> - <strong>Software Engineering Fellow</strong>, 2021
                     <ul>
                         <li>3 month software engineering immsersive</li>

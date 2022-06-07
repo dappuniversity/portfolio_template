@@ -22,7 +22,7 @@ code {
 }
 
 .App {
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: 0 auto;
 }
 
@@ -39,11 +39,12 @@ code {
 
 .header,
 .about,
+.languages,
 .projects,
 .experience,
 .social,
 .footer {
-  padding: 50px 25px 25px;
+  padding: 50px 25px 25px 35px;
 }
 
 /* ------------------------------------------------------ */
@@ -161,6 +162,7 @@ code {
 /* ------------------------------------------------------ */
 /* -- About -- */
 
+
 .about h2 {
   font-size: 42px;
   margin: 25px auto;
@@ -211,6 +213,7 @@ code {
 /* ------------------------------------------------------ */
 /* -- Projects -- */
 
+
 .projects h2 {
   font-size: 42px;
   margin: 25px auto;
@@ -237,6 +240,7 @@ code {
 
   border: 1px solid #0088BB;
   border-radius: 8px;
+  height: 500px;
 }
 
 .projects__card h3 {
@@ -260,6 +264,23 @@ code {
 
 .projects__card .button {
   margin: 10px 5px 0;
+}
+
+.card-title {
+  height: 10%;
+}
+
+.card-img {
+  height: 35%;
+}
+
+.card-text {
+  height: 35%;
+  padding-top: 15px;
+}
+
+.card-buttons{
+  height: 20%;
 }
 
 /* ------------------------------------------------------ */
