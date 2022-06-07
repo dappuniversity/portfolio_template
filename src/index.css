@@ -387,5 +387,23 @@ code {
     padding: 5px;
     margin: 0;
   }
+
+  .card-title h3 {
+    font-size: 1.9em;
+  }
+
+  .card-text {
+    margin-bottom: 15px;
+  }
+
+  .card-buttons {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .card-buttons .button {
+    height: 50px;
+    text-align: center;
+  }
   
 }
