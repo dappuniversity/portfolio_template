@@ -365,5 +365,9 @@ code {
   .header__content p {
     font-size: 1.7em;
   }
+
+  .modal-content {
+    width: 400px;
+  }
   
 }
