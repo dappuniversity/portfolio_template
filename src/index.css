@@ -362,6 +362,10 @@ code {
 /* -- 400px Screen Size -- */
 
 @media screen and (max-width: 500px) {
+  .App h2 {
+    text-align: center;
+  }
+
   .header__content h1 {
     font-size: 1.7em;
   }
