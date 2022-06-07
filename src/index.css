@@ -353,3 +353,17 @@ code {
   background: #0088BB;
   color: #FFFFFF;
 }
+
+/* ------------------------------------------------------ */
+/* -- 400px Screen Size -- */
+
+@media screen and (max-width: 500px) {
+  .header__content h1 {
+    font-size: 1.7em;
+  }
+
+  .header__content p {
+    font-size: 1.7em;
+  }
+  
+}
