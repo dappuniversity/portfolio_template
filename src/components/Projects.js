@@ -1,6 +1,6 @@
 // Import Assets
 import crypto from "../assets/crypto-voting.png";
-import hlp from "../assets/hlp.png";
+import robopunks from "../assets/robopunks700x350.png";
 import blb from "../assets/booklistbuilder.png";
 
 const Projects = () => {
@@ -39,26 +39,26 @@ const Projects = () => {
 
         <div className="projects__card">
           <div className="card-title">
-            <h3>HLP Blog</h3>
+            <h3>Full Mint Website</h3>
           </div>
           <div className="card-img">
-            <img src={hlp} alt="Compound Landing Page" />
+            <img src={robopunks} alt="Compound Landing Page" />
           </div>
           <div className="card-text">
             <p>
-            The Higher Level Programming blog is a place for me to articulate programming concepts in terms easily understood. It uses React.js for the front-end and Python/Django for the backend.
+            My Full Mint Website allows users to connect their Ethereum wallets and mint a RoboPunks NFT token on the Goerli Testnet. The app uses React.js, Solidity, Ethers.js, Hardhat, and Chakra UI.
             </p>
           </div>
           <div className="card-buttons">
             <a
-              href="https://damonpickett.github.io/hlp-blog-frontend/#/"
+              href="https://damonpickett.github.io/full-mint-website/"
               target="_blank"
               className="button"
             >
               Site
             </a>
             <a
-              href="https://github.com/damonpickett/hlp-blog-frontend"
+              href="https://github.com/damonpickett/full-mint-website"
               target="_blank"
               className="button"
             >
