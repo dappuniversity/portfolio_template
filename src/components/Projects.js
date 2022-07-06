@@ -1,7 +1,7 @@
 // Import Assets
 import crypto from "../assets/crypto-voting.png";
 import robopunks from "../assets/robopunks700x350.png";
-import blb from "../assets/booklistbuilder.png";
+import sffpc from '../assets/sffpc-700x350.png';
 
 const Projects = () => {
   return (
@@ -69,22 +69,22 @@ const Projects = () => {
 
         <div className="projects__card">
           <div className="card-title">
-            <h3>BookListBuilder</h3>
+            <h3>Mock NFT Project</h3>
           </div>
           <div className="card-img">
-            <img src={blb} alt="Aave Landing Page" />
+            <img src={sffpc} alt="sffpc" />
           </div>
           <div className="card-text">
             <p>
-            BookListBuilder is a React app which accesses the Google Books API to enable the user to create their own reading list. It also features a random quote generator to inspire the user’s search.
+            The Sci-Fi Film Poster club is a mock NFT project which demonstrates my ability to build a front-end interface that sells ERC721 tokens via a smart contract on the Ethereum blockchain.
             </p>
           </div>
           <div className="card-buttons">
-            <a href="https://damonpickett.github.io/react-booklistbuilder/#/" target="_blank" className="button">
+            <a href="https://damonpickett.github.io/sffpc/#/" target="_blank" className="button">
               Site
             </a>
             <a
-              href="https://github.com/damonpickett/react-booklistbuilder"
+              href="https://github.com/damonpickett/sffpc"
               target="_blank"
               className="button"
             >
