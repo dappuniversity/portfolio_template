@@ -9,6 +9,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: rgb(45, 43, 43);
+  color: white;
 }
 
 body {
@@ -32,9 +34,10 @@ code {
 
 h1, h2, h3, h4 {
   font-family: 'Orbitron', sans-serif;
+  color:#12BDF3
 }
 
-p {
+p, li {
   font-family: 'VT323', monospace;
 }
 
@@ -77,6 +80,8 @@ p {
   margin: 20px auto;
 
   border-radius: 50%;
+
+  border:#12BDF3 2px solid;
 }
 
 .header__content {
@@ -189,7 +194,7 @@ p {
 }
 
 .about p {
-  font-size: 18px;
+  font-size: 1.8em;
   line-height: 130%;
   max-width: 75ch;
   margin-bottom: 10px;
@@ -280,10 +285,12 @@ p {
   margin: 20px 0 10px;
 
   border-radius: 8px;
+  border:#12BDF3 1px solid;
 }
 
 .projects__card .button {
   margin: 10px 5px 0;
+  font-size: 1em;
 }
 
 .card-title {
@@ -303,6 +310,10 @@ p {
   padding-top: 15px;
 }
 
+.card-text p {
+  font-size: 1.1em;
+}
+
 .card-buttons{
   height: 20%;
 }
@@ -320,7 +331,7 @@ p {
 }
 
 .experience li {
-  font-size: 18px;
+  font-size: 1.2em;
   line-height: 130%;
   margin: 15px auto;
 }
@@ -371,6 +382,9 @@ p {
   cursor: pointer;
 
   transition: all 250ms ease;
+
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.2em;
 }
 
 .button:hover {
