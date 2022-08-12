@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=VT323&display=swap');
+
+/* font-family: 'Orbitron', sans-serif; */
+/* font-family: 'VT323', monospace; */
 
 * {
   margin: 0;
@@ -24,6 +28,14 @@ code {
 .App {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Orbitron', sans-serif;
+}
+
+p {
+  font-family: 'VT323', monospace;
 }
 
 /* ------------------------------------------------------ */
@@ -74,6 +86,10 @@ code {
 
 .header__content h1 {
   font-size: 48px;
+}
+
+.header__content h2 {
+  font-family: 'Orbitron', sans-serif;
 }
 
 .header__content p {
@@ -272,6 +288,10 @@ code {
 
 .card-title {
   height: 10%;
+}
+
+.card-title h3{
+  font-size: 1.7em;
 }
 
 .card-img {

@@ -15,7 +15,7 @@ const Header = (props) => {
         <h1>
           Hi, I'm <span className="camelCase">damonPickett</span>
         </h1>
-        <p>Blockchain Developer</p>
+        <h2>Blockchain Developer</h2>
         
           <button onClick={() => props.setShow(true)} className="button">Get In Touch</button>
         
