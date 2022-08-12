@@ -9,7 +9,7 @@ const Languages = () => {
                 <p>React.js</p>
             </li>
             <li>
-                <i class="devicon-solidity-plain colored"></i>
+                <i class="devicon-solidity-plain"></i>
                 <p>Solidity</p>
             </li>
             <li>
@@ -29,7 +29,7 @@ const Languages = () => {
                 <p>Git</p>
             </li>
             <li>
-                <i class="devicon-django-plain colored"></i>
+                <i class="devicon-django-plain"></i>
                 <p>Django</p>
             </li>
         </ul>
