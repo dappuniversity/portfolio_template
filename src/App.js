@@ -1,4 +1,5 @@
 // Import Components
+import Nav from './components/Nav';
 import Header from './components/Header';
 import Modal from './components/Modal.js';
 import About from './components/About';
@@ -16,6 +17,7 @@ function App() {
 
 	return (
 		<div className="App">
+			<Nav />
 			<Header setShow={setShow}/>
 			<Modal show={show} setShow={setShow}/>
 			<About />
