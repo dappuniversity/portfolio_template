@@ -255,8 +255,13 @@ p, li {
   margin: 25px auto;
 }
 
-.small {
+.small1 {
   font-size: 0.9em;
+  color:#12BDF3
+}
+
+.small2 {
+  font-size: 0.76em;
   color:#12BDF3
 }
 

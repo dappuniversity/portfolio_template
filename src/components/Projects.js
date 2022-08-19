@@ -2,6 +2,7 @@
 import crypto from "../assets/crypto-voting.png";
 import robopunks from "../assets/robopunks700x350.png";
 import sffpc from '../assets/sffpc-700x350.png';
+import whitsteenProject from '../assets/whitsteen-project.png'
 
 const Projects = () => {
   return (
@@ -69,14 +70,14 @@ const Projects = () => {
 
         <div className="projects__card">
           <div className="card-title">
-            <h3>Mock NFT Project</h3>
+            <h3><span className='small2'>The Sci-Fi Film Poster Club</span></h3>
           </div>
           <div className="card-img">
             <img src={sffpc} alt="sffpc" />
           </div>
           <div className="card-text">
             <p>
-            The Sci-Fi Film Poster club is a mock NFT project which demonstrates my ability to build a front-end interface that sells ERC721 tokens via a smart contract on the Ethereum blockchain.
+            The Sci-Fi Film Poster club is a mock NFT project which demonstrates my ability to build a front-end interface that sells ERC721 tokens via smart contract on the Ethereum's Rinkeby testnet.
             </p>
           </div>
           <div className="card-buttons">
@@ -95,22 +96,22 @@ const Projects = () => {
 
         <div className="projects__card">
           <div className="card-title">
-            <h3><span className='small'>The Whitsteen Project</span></h3>
+            <h3><span className='small1'>The Whitsteen Project</span></h3>
           </div>
           <div className="card-img">
-            <img src={sffpc} alt="sffpc" />
+            <img src={whitsteenProject} alt="The Whitsteen Project" />
           </div>
           <div className="card-text">
             <p>
-            The Sci-Fi Film Poster club is a mock NFT project which demonstrates my ability to build a front-end interface that sells ERC721 tokens via a smart contract on the Ethereum blockchain.
+            The Whitsteen Project is a mock NFT project which demonstrates my ability to conceptualize and execute an NFT art project. It utilizes OpenZeppelin's ERC1155 token standard.
             </p>
           </div>
           <div className="card-buttons">
-            <a href="https://damonpickett.github.io/sffpc/#/" target="_blank" className="button">
+            <a href="https://damonpickett.github.io/whitsteen-project/" target="_blank" className="button">
               Site
             </a>
             <a
-              href="https://github.com/damonpickett/sffpc"
+              href="https://github.com/damonpickett/whitsteen-project"
               target="_blank"
               className="button"
             >
