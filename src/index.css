@@ -255,6 +255,11 @@ p, li {
   margin: 25px auto;
 }
 
+.small {
+  font-size: 0.9em;
+  color:#12BDF3
+}
+
 .projects p {
   font-size: 18px;
   line-height: 130%;

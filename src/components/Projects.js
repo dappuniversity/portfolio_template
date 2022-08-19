@@ -92,6 +92,32 @@ const Projects = () => {
             </a>
           </div>
         </div>
+
+        <div className="projects__card">
+          <div className="card-title">
+            <h3><span className='small'>The Whitsteen Project</span></h3>
+          </div>
+          <div className="card-img">
+            <img src={sffpc} alt="sffpc" />
+          </div>
+          <div className="card-text">
+            <p>
+            The Sci-Fi Film Poster club is a mock NFT project which demonstrates my ability to build a front-end interface that sells ERC721 tokens via a smart contract on the Ethereum blockchain.
+            </p>
+          </div>
+          <div className="card-buttons">
+            <a href="https://damonpickett.github.io/sffpc/#/" target="_blank" className="button">
+              Site
+            </a>
+            <a
+              href="https://github.com/damonpickett/sffpc"
+              target="_blank"
+              className="button"
+            >
+              Code
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   );
