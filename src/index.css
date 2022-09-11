@@ -509,3 +509,13 @@ p, li {
     justify-content: center;
   }
 }
+
+/* ------------------------------------------------------ */
+/* -- 550px Screen Size -- */
+
+@media screen and (max-width: 770px) {
+
+  .projects__cards {
+    gap: 10px;
+  }
+}
