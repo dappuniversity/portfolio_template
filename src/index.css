@@ -88,7 +88,7 @@ p, li {
   max-width: 300px;
   height: auto;
 
-  margin: 20px auto;
+  margin: 20px 0;
 
   border-radius: 50%;
 
@@ -414,12 +414,26 @@ p, li {
 }
 
 /* ------------------------------------------------------ */
-/* -- 400px Screen Size -- */
+/* -- 300px Screen Size -- */
+
+@media screen and (max-width: 300px) {
+
+  .header {
+    justify-content: center;
+  }
+}
+
+/* ------------------------------------------------------ */
+/* -- 500px Screen Size -- */
 
 @media screen and (max-width: 500px) {
 
   .App h2 {
     text-align: center;
+  }
+
+  .header {
+    justify-content: center;
   }
 
   .header__content h1 {
@@ -474,5 +488,24 @@ p, li {
   .inner-list li{
     margin-left: 15px;
   }
+
+  .social-links {
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .social-links a {
+    margin-right: 0;
+  }
   
+}
+
+/* ------------------------------------------------------ */
+/* -- 550px Screen Size -- */
+
+@media screen and (max-width: 550px) {
+
+  .header {
+    justify-content: center;
+  }
 }
