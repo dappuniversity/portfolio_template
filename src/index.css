@@ -9,7 +9,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: rgb(45, 43, 43);
+  background-color: black;
   color: white;
 }
 
@@ -28,8 +28,9 @@ code {
 }
 
 .App {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
+  border: 1px pink solid;
 }
 
 h1, h2, h3, h4 {
@@ -41,7 +42,7 @@ p, li {
   font-family: 'VT323', monospace;
 }
 
-.header,
+.hero,
 .about,
 .languages,
 .projects,
@@ -76,7 +77,7 @@ p, li {
 /* ------------------------------------------------------ */
 /* -- Header -- */
 
-.header {
+.hero {
   max-width: 1200px;
   display: flex;
   align-items: center;
@@ -84,7 +85,7 @@ p, li {
   text-align: center;
 }
 
-.header img {
+.hero img {
   max-width: 300px;
   height: auto;
 
@@ -95,24 +96,24 @@ p, li {
   border:#12BDF3 2px solid;
 }
 
-.header__content {
+.hero__content {
   width: 400px;
   margin: 0 auto;
 }
 
-.header__content h1 {
+.hero__content h1 {
   font-size: 48px;
 }
 
-.header__content h2 {
+.hero__content h2 {
   font-family: 'Orbitron', sans-serif;
 }
 
-.header__content p {
+.hero__content p {
   font-size: 32px;
 }
 
-.header__content button {
+.hero__content button {
   margin: 25px auto 0;
 }
 
@@ -418,7 +419,7 @@ p, li {
 
 @media screen and (max-width: 300px) {
 
-  .header {
+  .hero {
     justify-content: center;
   }
 }
@@ -432,15 +433,15 @@ p, li {
     text-align: center;
   }
 
-  .header {
+  .hero {
     justify-content: center;
   }
 
-  .header__content h1 {
+  .hero__content h1 {
     font-size: 1.7em;
   }
 
-  .header__content p {
+  .hero__content p {
     font-size: 1.7em;
   }
 
@@ -505,7 +506,7 @@ p, li {
 
 @media screen and (max-width: 550px) {
 
-  .header {
+  .hero {
     justify-content: center;
   }
 }

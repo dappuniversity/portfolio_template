@@ -1,12 +1,11 @@
-// Import Assets
-import profile from "../assets/profile.png";
 
 const About = () => {
   return (
     <section className="about">
       <h2>About Me</h2>
 
-      <p>Using React.js I specialize in building intuitive user interfaces. My intention is to make it as easy as possible for people to access the services, products, and information they need when using the internet. Having worked in customer service for over a decade, I am an excellent communicator who knows how to listen as well as convey meaning clearly and concisely. Many of my projects are front-end interfaces that communicate with EVM compatible blockchains. I believe that blockchain technology is the future of e-commerce and will lead to global prosperity.</p>
+      <p>I build AI powered apps. I've built a bunch of front-end interfaces for mock NFT projects as well using React and Solidity. Who are you? Is there anything I can help you with?</p>
+      <p>I code because I love to build. When I'm building it's like I step outside of time. I'm also an excellent communicator. You know when you call a call centre and an automated message says "Your call may be monitored for quality and training purposes"? Well I used to be the guy monitoring calls for quality and training purposes. I've spent countless hours evaluating people's interactions. So I want to combine my passion for building with my skills in communication to create value for others.</p>
     </section>
   );
 };
