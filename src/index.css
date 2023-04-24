@@ -30,7 +30,6 @@ code {
 .App {
   max-width: 1000px;
   margin: 0 auto;
-  border: 1px pink solid;
 }
 
 h1, h2, h3, h4 {
@@ -50,6 +49,10 @@ p, li {
 .social,
 .footer {
   padding: 50px 25px 25px 25px;
+}
+
+section {
+  text-align: center;
 }
 
 /* ------------------------------------------------------ */
@@ -75,30 +78,29 @@ p, li {
 }
 
 /* ------------------------------------------------------ */
-/* -- Header -- */
+/* -- Hero -- */
 
 .hero {
   max-width: 1200px;
   display: flex;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   text-align: center;
+  
 }
 
 .hero img {
   max-width: 300px;
   height: auto;
-
   margin: 20px 0;
-
   border-radius: 50%;
-
   border:#12BDF3 2px solid;
 }
 
 .hero__content {
   width: 400px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .hero__content h1 {
@@ -199,7 +201,6 @@ p, li {
 /* ------------------------------------------------------ */
 /* -- About -- */
 
-
 .about h2 {
   font-size: 42px;
   margin: 25px auto;
@@ -209,7 +210,7 @@ p, li {
   font-size: 1.8em;
   line-height: 130%;
   max-width: 75ch;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .about a {
@@ -236,7 +237,7 @@ p, li {
   list-style-type: none;
   font-size: 75px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -274,8 +275,7 @@ p, li {
 
 .projects__cards {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
 }
@@ -287,7 +287,7 @@ p, li {
 
   border: 1px solid #0088BB;
   border-radius: 8px;
-  height: 500px;
+  height: 600px;
 }
 
 .projects__card h3 {
@@ -333,7 +333,7 @@ p, li {
 }
 
 .card-text p {
-  font-size: 1.1em;
+  font-size: 1.4em;
 }
 
 .card-buttons{
@@ -368,7 +368,7 @@ p, li {
 
 .social-links {
   display: flex;
-  justify-content: start;
+  justify-content: center;
 }
 
 .social-links a {

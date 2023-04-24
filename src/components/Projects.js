@@ -18,7 +18,7 @@ const Projects = () => {
                 <h3>{p.title}</h3>
               </div>
               <div className="card-img">
-                <img src={p.image} alt="Uniswap Swap Page" key={p.id}/>
+                <img src={p.image} alt={p.alt} key={p.id}/>
               </div>
               <div className="card-text">
                 <p>{p.description}</p>
@@ -27,14 +27,12 @@ const Projects = () => {
                 <a href={p.site} target="_blank" rel='noreferrer' className="button">
                 Site
                 </a>
-                <a
-                  href={p.code}
-                  target="_blank"
-                  className="button"
-                  rel='noreferrer'
-                >
+                {p.code === false ? null : (
+                <a href={p.code} target="_blank" className="button" rel="noreferrer">
                   Code
                 </a>
+                )}
+
           </div>
             </div>
           )
