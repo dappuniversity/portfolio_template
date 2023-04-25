@@ -7,6 +7,7 @@ const Hero = (props) => {
 
   return (
     <section className="hero">
+      <div id='home'></div>
       <Link to="/">
         <img src={profile} alt="Damon Pickett" />
       </Link>
@@ -15,7 +16,7 @@ const Hero = (props) => {
         <h1>
           Hi, I'm <span className="camelCase">damonPickett</span>
         </h1>
-        <h2>Front-end | Blockchain Developer</h2>
+        <h2>Software Developer</h2>
         
           <button onClick={() => props.setShow(true)} className="button">Get In Touch</button>
         

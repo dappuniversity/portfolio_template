@@ -32,6 +32,12 @@ code {
   margin: 0 auto;
 }
 
+html { font-size: 100%; } /* Remember to add to @media screens when necessary */
+h1 { font-size: 2.074em; }
+h2 { font-size: 1.728em; }
+h3 { font-size: 1.44em; }
+h4 { font-size: 1.2em; }
+
 h1, h2, h3, h4 {
   font-family: 'Orbitron', sans-serif;
   color:#12BDF3
@@ -41,6 +47,7 @@ p, li {
   font-family: 'VT323', monospace;
 }
 
+.header,
 .hero,
 .about,
 .languages,
@@ -55,26 +62,30 @@ section {
   text-align: center;
 }
 
+section h2 {
+  font-size: 42px;
+  margin: 25px auto;
+}
+
 /* ------------------------------------------------------ */
-/* -- Navigation -- */
+/* -- Header -- */
 
-.nav {
-  background-color: #12BDF3;
-  padding: 30px 100px;
-  font-size: 1.5em;
-  position: sticky;
-  top: 0;
+.header {
+  border-bottom: 2px solid #0088BB;
 }
 
-.nav-list {
+.header-nav {
   list-style: none;
-  display: flex;
-  justify-content: space-between;
-  background-color: inherit;
 }
 
-.nav-list li{
-  background-color: inherit;
+.header-nav li{
+  display: inline;
+}
+
+.header-nav li a{
+  text-decoration: none;
+  margin-right: 1em;
+  font-size: 2em;
 }
 
 /* ------------------------------------------------------ */
@@ -87,7 +98,7 @@ section {
   align-items: center;
   flex-wrap: wrap;
   text-align: center;
-  
+  gap: 20px;
 }
 
 .hero img {
@@ -109,6 +120,7 @@ section {
 
 .hero__content h2 {
   font-family: 'Orbitron', sans-serif;
+  font-size: 2.1em;
 }
 
 .hero__content p {
@@ -201,11 +213,6 @@ section {
 /* ------------------------------------------------------ */
 /* -- About -- */
 
-.about h2 {
-  font-size: 42px;
-  margin: 25px auto;
-}
-
 .about p {
   font-size: 1.8em;
   line-height: 130%;
@@ -219,11 +226,6 @@ section {
 
 /* ------------------------------------------------------ */
 /* -- Languages/Skills -- */
-
-.languages h2 {
-  font-size: 42px;
-  margin: 25px auto;
-}
 
 .languages p {
   font-size: 18px;
@@ -251,28 +253,6 @@ section {
 /* ------------------------------------------------------ */
 /* -- Projects -- */
 
-
-.projects h2 {
-  font-size: 42px;
-  margin: 25px auto;
-}
-
-.small1 {
-  font-size: 0.9em;
-  color:#12BDF3
-}
-
-.small2 {
-  font-size: 0.76em;
-  color:#12BDF3
-}
-
-.projects p {
-  font-size: 18px;
-  line-height: 130%;
-  max-width: 50ch;
-}
-
 .projects__cards {
   display: flex;
   justify-content: center;
@@ -282,71 +262,65 @@ section {
 
 .projects__card {
   max-width: 350px;
-
-  padding: 20px;
-
-  border: 1px solid #0088BB;
+  padding: 0 20px;
+  border: 2px solid #0088BB;
   border-radius: 8px;
-  height: 600px;
+  height: 500px;
+  transition: all 0.5s ease;
+}
+
+.projects__card:hover {
+  transform: scale(1.1); 
+  border: 2px solid #a5e1f7;
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid pink; */
+  padding: 10px 0;
 }
 
 .projects__card h3 {
-  font-size: 32px;
+  font-size: 2em;
   font-weight: 300;
   margin-bottom: 10px;
 }
 
-.projects__card p {
-  font-size: 16px;
-  margin: 20px 0;
-}
+/* .card-img {
+  border: 1px solid pink;
+} */
 
 .projects__card img {
   width: 100%;
   height: auto;
-  margin: 20px 0 10px;
-
+  margin: 0 0 10px;
   border-radius: 8px;
   border:#12BDF3 1px solid;
 }
+
+.card-text {
+  height: 170px;
+}
+
+.card-text p {
+  margin: 0 0 10px;
+  font-size: 1.6em;
+  line-height: 130%;
+}
+
+/* .card-buttons{
+  border: 1px solid pink;
+} */
 
 .projects__card .button {
   margin: 10px 5px 0;
   font-size: 1em;
 }
 
-.card-title {
-  height: 10%;
-}
-
-.card-title h3{
-  font-size: 1.7em;
-}
-
-.card-img {
-  height: 35%;
-}
-
-.card-text {
-  height: 35%;
-  padding-top: 15px;
-}
-
-.card-text p {
-  font-size: 1.4em;
-}
-
-.card-buttons{
-  height: 20%;
-}
-
 /* ------------------------------------------------------ */
 /* -- Education/Experience -- */
-
-.experience h2 {
-  font-size: 42px;
-  margin: 25px auto;
-}
 
 .experience ul {
   margin: 0 0 10px 50px;
@@ -360,11 +334,6 @@ section {
 
 /* ------------------------------------------------------ */
 /* -- Social Media -- */
-
-.social h2 {
-  font-size: 42px;
-  margin: 25px auto;
-}
 
 .social-links {
   display: flex;
@@ -466,10 +435,6 @@ section {
 
   .card-title h3 {
     font-size: 1.7em;
-  }
-
-  .card-text {
-    margin-bottom: 15px;
   }
 
   .card-buttons {

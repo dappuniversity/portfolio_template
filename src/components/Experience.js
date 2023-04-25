@@ -5,6 +5,14 @@ const Experience = () => {
 
             <ul>
                 <li>
+                    <i>Solidus Development</i> - <strong>Owner/Operator</strong>, 2022
+                    <ul className="inner-list">
+                        <li>Web design and development for individuals and small businesses</li>
+                        <li>SEO and copywriting services also provided</li>
+                        <li>Five completed projects to date with more on the way</li>
+                    </ul>
+                </li>
+                <li>
                     <i>Sovereign Prime</i> - <strong>Intern</strong>, 2022
                     <ul className="inner-list">
                         <li>Worked within a team to begin building a web3 messenger app</li>

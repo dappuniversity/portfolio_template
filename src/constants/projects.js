@@ -10,7 +10,7 @@ import sffpc from '../assets/sffpc-700x350.png'
 export const projects = [
     {
       title: "buge",
-      description: "buge is a command-line application that helps developers troubleshoot common error messages by generating explanations and solutions using the OpenAI GPT-3 language model",
+      description: "buge is a command-line application that uses the OpenAI API to generate solutions to error codes.",
       image: buge,
       alt: "buge command-line application",
       code: "https://github.com/damonpickett/buge",
@@ -59,7 +59,7 @@ export const projects = [
       id: 4
     },
     {
-      title: "The Whitsteen Project",
+      title: "Whitsteen NFT",
       description: "The Whitsteen Project is a mock NFT project based on the artwork of Whitsteen. This app records transactions on the Ethereum testnet.",
       image: whitsteen,
       alt: "The Whitsteen Project",
@@ -79,7 +79,7 @@ export const projects = [
       id: 6
     },
     {
-      title: "Sci-fi Film Poster Club",
+      title: "Film Poster Club",
       description: "The Sci-Fi Film Poster Club allows users to connect their Ethereum wallets and mint ERC721 tokens on the Rinkeby Testnet.",
       image: sffpc,
       alt: "Sci-Fi Film Poster Club",

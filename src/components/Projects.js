@@ -1,8 +1,4 @@
 // Import Assets
-import crypto from "../assets/crypto-voting.png";
-import robopunks from "../assets/robopunks700x350.png";
-import sffpc from '../assets/sffpc-700x350.png';
-import whitsteenProject from '../assets/whitsteen-project.png'
 import { projects } from '../constants/projects'
 
 const Projects = () => {
@@ -39,6 +35,7 @@ const Projects = () => {
         })}
       
       </div>
+      <div id='experience'></div>
     </section>
   );
 };

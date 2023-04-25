@@ -1,6 +1,7 @@
 const Languages = () => {
     return (
       <section className="languages">
+        <div id='projects'></div>
         <h2>Languages</h2>
   
         <ul className="language-list">
