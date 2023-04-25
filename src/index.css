@@ -72,6 +72,9 @@ section h2 {
 
 .header {
   border-bottom: 2px solid #0088BB;
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 
 .header-nav {
@@ -144,16 +147,17 @@ section h2 {
   top: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .modal-content {
   width: 500px;
-  background-color: white;
-  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+  border: 2px solid #0088BB;
 }
 
 .modal-header, .modal-footer {

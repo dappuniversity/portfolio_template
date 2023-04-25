@@ -33,9 +33,9 @@ const Projects = () => {
             </div>
           )
         })}
-      
-      </div>
       <div id='experience'></div>
+      </div>
+      
     </section>
   );
 };

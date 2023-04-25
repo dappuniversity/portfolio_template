@@ -15,7 +15,7 @@ function App() {
 
 	return (
 		<div className="App">
-			<Header />
+			<Header setShow={setShow}/>
 			<Hero setShow={setShow}/>
 			<Modal show={show} setShow={setShow}/>
 			<About />
