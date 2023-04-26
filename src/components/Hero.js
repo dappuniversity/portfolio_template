@@ -6,8 +6,10 @@ import { Link } from 'react-router-dom';
 const Hero = (props) => {
 
   return (
-    <section className="hero">
-      <div id='home'></div>
+    <>
+    <div id='home'></div>
+    <section className="hero" data-aos='fade-in'>
+      
       <Link to="/">
         <img src={profile} alt="Damon Pickett" />
       </Link>
@@ -22,6 +24,7 @@ const Hero = (props) => {
         
       </div>
     </section>
+    </>
   );
 };
 

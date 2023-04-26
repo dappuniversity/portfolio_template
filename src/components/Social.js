@@ -1,6 +1,6 @@
 const Social = () => {
     return (
-        <section className="social">
+        <section className="social" data-aos='fade-in'>
             <h2>Socials</h2>
             <div className="social-links">
                 <a href="https://twitter.com/Damon_Pickett" target='_blank' rel='noreferrer'><i class="devicon-twitter-original colored"></i></a>

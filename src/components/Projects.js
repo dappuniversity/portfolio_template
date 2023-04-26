@@ -3,7 +3,7 @@ import { projects } from '../constants/projects'
 
 const Projects = () => {
   return (
-    <section className="projects">
+    <section className="projects" data-aos='fade-in'>
       <h2>My Projects</h2>
 
       <div className="projects__cards">

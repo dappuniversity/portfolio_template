@@ -1,6 +1,6 @@
 const Experience = () => {
     return (
-        <div className="experience">
+        <section className="experience" data-aos='fade-in'>
             <h2>Experience</h2>
 
             <ul>
@@ -51,7 +51,7 @@ const Experience = () => {
                     </ul>
                 </li>
             </ul>
-        </div>
+        </section>
     );
 }
 

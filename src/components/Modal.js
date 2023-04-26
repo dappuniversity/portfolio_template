@@ -6,7 +6,7 @@ const Modal = (props) => {
   }
 
   return (
-    <div className="modal" onClick={() => props.setShow(false)}>
+    <div className="modal" onClick={() => props.setShow(false)} data-aos='fade-in'>
       <div className="modal-content">
         <div className="modal-header">
           <h4>Contact</h4>
