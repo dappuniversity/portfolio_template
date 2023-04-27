@@ -95,7 +95,45 @@ section h2 {
   display: none;
 }
 
-/* Burger */
+/* ------------------------------------------------------ */
+/* -- Burger Menu -- */
+
+.burger-menu {
+  position: fixed;
+  top: 0;
+  left: -40%;
+  width: 40%;
+  height: 100vh;
+  background-color: rgba(34, 33, 33, 0.8);
+  box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.5);
+  transition: left 0.3s ease-in-out;
+  z-index: 2;
+}
+
+.burger-menu.show {
+  left: 0;
+}
+
+.burger-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.burger-menu li {
+  margin: 10px 0 30px;
+}
+
+.burger-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
 
 
 /* ------------------------------------------------------ */
@@ -158,7 +196,7 @@ section h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 2;
+  z-index: 3;
 }
 
 .modal-content {
@@ -539,6 +577,16 @@ section h2 {
     transform: translateX(-50px);
     background: transparent;
   }
+
+  .menu-btn.open .menu-btn__burger::before {
+    transform: rotate(45deg) translate(35px, -35px);
+  }
+
+  .menu-btn.open .menu-btn__burger::after {
+    transform: rotate(-45deg) translate(35px, 35px);
+  }
+
+
 
   .hero {
     justify-content: center;

@@ -1,5 +1,6 @@
 // Import Components
 import Header from './components/Header';
+import BurgerMenu from './components/BurgerMenu';
 import Hero from './components/Hero';
 import Modal from './components/Modal.js';
 import About from './components/About';
@@ -23,6 +24,7 @@ function App() {
 	return (
 		<div className="App">
 			<Header setShow={setShow} menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+			<BurgerMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} setShow={setShow}/>
 			<Hero setShow={setShow}/>
 			<Modal show={show} setShow={setShow}/>
 			<About />
